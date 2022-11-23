@@ -13,3 +13,13 @@ function addItem(item){
 
 console.log(addItem('tissue'));//test add item
 console.log(basket[0])// test basket
+
+//item list function
+function listItems(){
+    for (var i = 0; i < basket.length; i++){
+        console.log(basket[i]);
+    }
+}//end function list item
+
+console.log(listItems());//test listItems
+
